@@ -1,0 +1,28 @@
+public Run (str: String[]) -> Kwo // Explicitly
+{
+	// ...
+	return new Kwo();
+}
+
+public Run (str: String[]) // Implicitly
+{
+	// ...
+	return new Kwo();
+}
+
+public Run (str: String[]) -> (int, String) // Explicitly
+{
+	// ...
+	return 1, "Some string";
+}
+
+public Run (str: String[]) -> (int, String) {
+	// ...
+	return 1, "Some string";
+}
+
+public Run (str: String[]) -> (int, String) {
+	// ...
+	Run
+	return 1, "Some string";
+}

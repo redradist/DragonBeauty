@@ -1,0 +1,16 @@
+// object is reference type
+class Human {
+	public Human() {  }
+	
+	~Human() {  }
+}
+
+int main(args: String[])
+{
+	hum0: Human = new Human();    // Reference variable, collected by garbage collector
+	hum1: Human? = new Human();   // Weak Reference or Pointer variable, reference counting technology
+	hum2: Human! = new Human();   // Unique Reference or Pointer variable, reference counting technology
+	hum3: Human* = new Human();   // Shared Pointer variable, reference counting technology
+
+	hum4 = hum2;
+}
