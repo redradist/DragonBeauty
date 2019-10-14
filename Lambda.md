@@ -1,9 +1,9 @@
 // object is reference type 
-public class Man inherits Human, Alien implements Intellect {
+public class Man() inherits Human, Alien implements Intellect {
 	public Man(): Human(), Alien() {  }
 	
 	public {
-        Run (String[] str) -> Kwo
+        function Run (String[] str) -> Kwo
         {
             var lambda = (String[] str) -> { 		// lambda
 

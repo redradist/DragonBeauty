@@ -20,7 +20,7 @@ public interface IItellect
 		char = 'H'; // UTF-8
 	}
 	
-	public request Think() -> Minds[] // public request ���� �������� ����� ��� ���
+	public request Think() -> Minds[] // public request
 	{
 		String = '''Hello Denis''';
 		String = ''Hello Denis'';

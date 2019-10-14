@@ -4,9 +4,9 @@ delegate Runnable(String) -> int;
 
 public Run (str: String[]) // Implicitly
 {
-	time, time2: Socket = new Socket(), new Socket()	// Explicitly
+	var time, time2: Socket = new Socket(), new Socket()	// Explicitly
 	time  = new Time() 					// Implicitly, if this variable did not exist, then simular like in Python and C# (dinamic)
-	time: Socket? = new Time()      // Create WeakPtr for programm which can be start without GarbageCollector
+	var time: Socket? = new Time()      // Create WeakPtr for programm which can be start without GarbageCollector
 	time = (String[] str) -> { 		// Could be overwrite on lambda, 'cause it is like in Python
 		time := time0
 	};

@@ -1,0 +1,5 @@
+public function Run[T](T[] str) -> Future<T> // Explicitly
+{
+	// ...
+	return new Kwo();
+}
