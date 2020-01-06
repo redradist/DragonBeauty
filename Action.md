@@ -6,13 +6,13 @@ public class Man inherits Human, Alien implements IItellect {
 
     }
 
-	public function Human::Run (String[] str) -> Kwo // Explicitly
+	public fun Human::Run (String[] str) -> Kwo // Explicitly
 	{
 		// ...
 		return new Kwo();
 	}
 	
-	public function Run (String[] str) -> auto // Implicitly
+	public fun Run (String[] str) -> auto // Implicitly
 	{
 		// ...
 		return new Kwo();

@@ -3,7 +3,7 @@ public class Man() inherits Human, Alien implements Intellect {
 	public Man(): Human(), Alien() {  }
 	
 	public {
-        function Run (String[] str) -> Kwo
+        fun Run (String[] str) -> Kwo
         {
             var lambda = (String[] str) -> { 		// lambda
 

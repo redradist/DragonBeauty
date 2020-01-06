@@ -74,14 +74,14 @@ public class Man inherits Human, Alien implement IItellect {
 		
 		};
 		
-		public function Helper (String[] str) -> Kwo // Sintax OK. It is a local function
+		public fun Helper (String[] str) -> Kwo // Sintax OK. It is a local function
 		{
 			public action Helper2 (String[] str) -> Kwo // Sintax ERROR.
 			{
 				
 			}
 		
-			public function Helper2 (String[] str) -> Kwo // Sintax ERROR. Second level.
+			public fun Helper2 (String[] str) -> Kwo // Sintax ERROR. Second level.
 			{
 				
 			}
@@ -196,7 +196,7 @@ struct Point {
 	~Point() {  }
 }
 
-public function binarySearch () -> One 
+public fun binarySearch () -> One 
 {
 	try {
 		
@@ -213,10 +213,10 @@ public function binarySearch () -> One
 	return new One();
 }
 
-public function main (String[] str) -> Kwo throw // Free function. Code should be started from here
+public fun main (String[] str) -> Kwo throw // Free function. Code should be started from here
 // Should be like throw if in function
 /*
- Inside of the function compiler will add stack_traces_of_name_function
+ Inside of the fun compiler will add stack_traces_of_name_function
  stack_functions.push_back("Dragon.main(String[] str)")
 */ 
 {
@@ -236,7 +236,7 @@ public function main (String[] str) -> Kwo throw // Free function. Code should b
 	}
 	
 	try {
-		// if main (String[] str) is throw and current function can throw then stack_functions.front().setLine()
+		// if main (String[] str) is throw and current fun can throw then stack_functions.front().setLine()
 		bla_bla(); 
 		// then stack_functions.front().removeLine()
 	}
