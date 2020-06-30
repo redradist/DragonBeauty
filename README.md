@@ -1,3 +1,5 @@
+All syntax is inspired by Python and Rust and C++ ;)
+
 Example of syntax:
 ```
 #[feature:static] Staticly Typed feature of language
